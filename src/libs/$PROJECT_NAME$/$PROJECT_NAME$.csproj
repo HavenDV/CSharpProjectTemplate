@@ -6,7 +6,7 @@
 
   <PropertyGroup Label="NuGet">
     <Version>0.9.0</Version>
-    <Description></Description>
+    <Description>$PROJECT_DESCRIPTION$</Description>
     <PackageReleaseNotes>Initial release.</PackageReleaseNotes>
   </PropertyGroup>
 
