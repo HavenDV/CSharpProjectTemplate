@@ -1,12 +1,8 @@
 {
   "Variables": [
     {
-      "Key": "$PROJECT_NAME$",
-      "Value": "CSharpProjectTemplate"
-    },
-    {
       "Key": "$PROJECT_DESCRIPTION$",
-      "Value": "CSharpProjectTemplate"
+      "Value": "Description"
     }
   ],
   "Conditions": [
