@@ -9,11 +9,11 @@ namespace $PROJECT_NAME$.IntegrationTests
     public class Tests
     {
         [TestMethod]
-        public async Task ConnectToChatNowShTest()
+        public async Task DelayTest()
         {
-            using var source = new CancellationTokenSource(TimeSpan.FromSeconds(10));
+            using var source = new CancellationTokenSource(TimeSpan.FromSeconds(5));
 
-            await Task.Delay(TimeSpan.FromSeconds(5), source.Token);
+            await Task.Delay(TimeSpan.FromSeconds(1), source.Token);
         }
     }
 }
