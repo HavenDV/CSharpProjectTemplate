@@ -21,7 +21,5 @@ Install-Package $PROJECT_NAME$
 // code
 ```
 
-### Used documentation
-
 ### Contacts
 * [mail](mailto:havendv@gmail.com)

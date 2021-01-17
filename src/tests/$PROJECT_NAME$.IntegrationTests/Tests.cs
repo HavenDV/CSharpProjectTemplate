@@ -11,9 +11,10 @@ namespace $PROJECT_NAME$.IntegrationTests
         [TestMethod]
         public async Task DelayTest()
         {
-            using var source = new CancellationTokenSource(TimeSpan.FromSeconds(5));
+            using var cancellationTokenSource = new CancellationTokenSource(TimeSpan.FromSeconds(30));
+            var cancellationToken = cancellationTokenSource.Token;
 
-            await Task.Delay(TimeSpan.FromSeconds(1), source.Token);
+            await Task.Delay(TimeSpan.FromSeconds(1), cancellationToken);
         }
     }
 }
